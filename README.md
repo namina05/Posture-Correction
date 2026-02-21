@@ -6,7 +6,7 @@ A real-time posture analysis system built with MediaPipe Holistic and OpenCV tha
 
 
 
-📌 \*\*OVERVIEW\*\*
+📌 **OVERVIEW**
 
 
 
@@ -18,67 +18,44 @@ Designed as a lightweight and modular implementation, it can serve as a foundati
 
 
 
-🧠 \*\*HOW IT WORKS\*\*
+🧠 **HOW IT WORKS**
+
+
+1. Captures live webcam frames using OpenCV.
+2. Uses MediaPipe Holistic to detect pose landmarks.
+3. Extracts relevant keypoints (Shoulder,Hip,Ear)
+4. Computes the shoulder alignment angle using vector mathematics.
+5. Compares the angle against biomechanical thresholds.
+6. Displays real-time posture feedback on the video stream.
 
 
 
-1\. Captures live webcam frames using OpenCV.
+⚙️ **TECHNOLOGIES USED**
 
-2\. Uses MediaPipe Holistic to detect pose landmarks.
+- Python
+- OpenCV
+- MediaPipe Holistic
+- NumPy
 
-3\. Extracts relevant keypoints:
 
-&nbsp;  - Shoulder
-
-&nbsp;  - Hip
-
-&nbsp;  - Ear
-
-4\. Computes the shoulder alignment angle using vector mathematics.
-
-5\. Compares the angle against biomechanical thresholds.
-
-6\. Displays real-time posture feedback on the video stream.
+🚀 **FEATURES**
 
 
 
-⚙️ \*\*TECHNOLOGIES USED\*\*
+- Real-time upper-body pose detection
+- Shoulder joint angle computation
+- Threshold-based posture classification
+- Live visual posture feedback overlay
+- Modular posture logic (posture.py) for easy extension
+
+
+📸 **DEMO IMAGES**
 
 
 
-\- Python
-
-\- OpenCV
-
-\- MediaPipe Holistic
-
-\- NumPy
+![Good Posture](images/Good\_Posture)
 
 
 
-🚀 \*\*FEATURES\*\*
-
-
-
-\- Real-time upper-body pose detection
-
-\- Shoulder joint angle computation
-
-\- Threshold-based posture classification
-
-\- Live visual posture feedback overlay
-
-\- Modular posture logic (posture.py) for easy extension
-
-
-
-📸 \*\*DEMO IMAGES\*\*
-
-
-
-!\[Good Posture](images/Good\_Posture)
-
-
-
-!\[Bad Posture](images/Bad\_Posture)
+![Bad Posture](images/Bad\_Posture)
 
