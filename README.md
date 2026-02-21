@@ -53,9 +53,9 @@ Designed as a lightweight and modular implementation, it can serve as a foundati
 
 
 
-![Good Posture](images/Good\_Posture)
+![Good Posture](images/Good_Posture.png)
 
 
 
-![Bad Posture](images/Bad\_Posture)
+![Bad Posture](images/Bad_Posture.png)
 
